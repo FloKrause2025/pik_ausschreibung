@@ -1,0 +1,790 @@
+2025-05-23 09:51:53,760 - INFO - --- Starting Product Information Extraction Workflow ---
+2025-05-23 09:51:53,760 - INFO - 📄 Loading and processing PDF from 'philip_case.pdf'...
+2025-05-23 09:51:55,104 - INFO - 📊 Extracted 125 entries with Pos Nr., Menge, and Description from PDF.
+2025-05-23 09:51:55,200 - INFO - 📊 Found existing file 'philip_case_results_with_scraping.xlsx' with 124 entries.
+2025-05-23 09:51:55,200 - INFO - 🔄 Will resume processing from where we left off.
+2025-05-23 09:51:55,200 - INFO - 🧪 TESTING MODE: Limiting processing to the first 20 entries from the PDF.
+2025-05-23 09:51:55,200 - INFO - ✅ All initial entries within the selected scope are already processed. Proceeding to brand analysis.
+2025-05-23 09:51:55,217 - INFO - 📊 Found existing file 'philip_case_results_with_scraping.xlsx' with 124 entries.
+2025-05-23 09:51:55,217 - INFO - 🔄 Will resume processing from where we left off.
+2025-05-23 09:51:55,217 - INFO - --- Initial scraping phase finished in 0.0 minutes ---
+2025-05-23 09:51:55,217 - INFO - --- Starting Brand Analysis ---
+2025-05-23 09:51:55,234 - INFO - 📊 Found existing file 'philip_case_results_with_scraping.xlsx' with 124 entries.
+2025-05-23 09:51:55,234 - INFO - 🔄 Will resume processing from where we left off.
+2025-05-23 09:51:55,234 - INFO - 
+📊 PHASE 1: BRAND ANALYSIS
+2025-05-23 09:51:55,234 - INFO - ==================================================
+2025-05-23 09:51:55,237 - INFO - 🔍 Found 77 products with valid brand information
+2025-05-23 09:51:55,237 - INFO - 📈 Brand distribution (48 unique brands):
+2025-05-23 09:51:55,237 - INFO -    1. qsc                  →  18 products ( 23.4%)
+2025-05-23 09:51:55,237 - INFO -    2. epson                →   6 products (  7.8%)
+2025-05-23 09:51:55,237 - INFO -    3. sennheiser           →   3 products (  3.9%)
+2025-05-23 09:51:55,237 - INFO -    4. somfy                →   2 products (  2.6%)
+2025-05-23 09:51:55,237 - INFO -    5. chief                →   2 products (  2.6%)
+2025-05-23 09:51:55,238 - INFO -    6. barco                →   2 products (  2.6%)
+2025-05-23 09:51:55,238 - INFO -    7. q-sys                →   2 products (  2.6%)
+2025-05-23 09:51:55,238 - INFO -    8. adam hall            →   2 products (  2.6%)
+2025-05-23 09:51:55,238 - INFO -    9. conen systems gmbh   →   1 products (  1.3%)
+2025-05-23 09:51:55,238 - INFO -   10. av stumpfl           →   1 products (  1.3%)
+2025-05-23 09:51:55,238 - INFO -   11. ls screens           →   1 products (  1.3%)
+2025-05-23 09:51:55,238 - INFO -   12. monlines             →   1 products (  1.3%)
+2025-05-23 09:51:55,238 - INFO -   13. viewsonic            →   1 products (  1.3%)
+2025-05-23 09:51:55,238 - INFO -   14. stand steady         →   1 products (  1.3%)
+2025-05-23 09:51:55,238 - INFO -   15. sms smart media solutions →   1 products (  1.3%)
+2025-05-23 09:51:55,238 - INFO -   16. pos - peter ohrem    →   1 products (  1.3%)
+2025-05-23 09:51:55,238 - INFO -   17. pos-express          →   1 products (  1.3%)
+2025-05-23 09:51:55,238 - INFO -   18. lumens               →   1 products (  1.3%)
+2025-05-23 09:51:55,238 - INFO -   19. geovision inc.       →   1 products (  1.3%)
+2025-05-23 09:51:55,238 - INFO -   20. dahua                →   1 products (  1.3%)
+2025-05-23 09:51:55,238 - INFO -   21. røde                 →   1 products (  1.3%)
+2025-05-23 09:51:55,238 - INFO -   22. catchbox             →   1 products (  1.3%)
+2025-05-23 09:51:55,238 - INFO -   23. mard-audio           →   1 products (  1.3%)
+2025-05-23 09:51:55,238 - INFO -   24. apple                →   1 products (  1.3%)
+2025-05-23 09:51:55,238 - INFO -   25. orico                →   1 products (  1.3%)
+2025-05-23 09:51:55,238 - INFO -   26. wacom                →   1 products (  1.3%)
+2025-05-23 09:51:55,238 - INFO -   27. baorec               →   1 products (  1.3%)
+2025-05-23 09:51:55,238 - INFO -   28. tehalit              →   1 products (  1.3%)
+2025-05-23 09:51:55,238 - INFO -   29. digitus              →   1 products (  1.3%)
+2025-05-23 09:51:55,238 - INFO -   30. hks                  →   1 products (  1.3%)
+2025-05-23 09:51:55,238 - INFO -   31. sms                  →   1 products (  1.3%)
+2025-05-23 09:51:55,238 - INFO -   32. victiv               →   1 products (  1.3%)
+2025-05-23 09:51:55,238 - INFO -   33. dali                 →   1 products (  1.3%)
+2025-05-23 09:51:55,238 - INFO -   34. obo                  →   1 products (  1.3%)
+2025-05-23 09:51:55,238 - INFO -   35. komib                →   1 products (  1.3%)
+2025-05-23 09:51:55,238 - INFO -   36. bachmann             →   1 products (  1.3%)
+2025-05-23 09:51:55,238 - INFO -   37. crestron             →   1 products (  1.3%)
+2025-05-23 09:51:55,238 - INFO -   38. crestron electronics, inc. →   1 products (  1.3%)
+2025-05-23 09:51:55,238 - INFO -   39. allnet               →   1 products (  1.3%)
+2025-05-23 09:51:55,238 - INFO -   40. inter-tech           →   1 products (  1.3%)
+2025-05-23 09:51:55,238 - INFO -   41. anel                 →   1 products (  1.3%)
+2025-05-23 09:51:55,238 - INFO -   42. efb-elektronik       →   1 products (  1.3%)
+2025-05-23 09:51:55,238 - INFO -   43. extron               →   1 products (  1.3%)
+2025-05-23 09:51:55,238 - INFO -   44. cables2go            →   1 products (  1.3%)
+2025-05-23 09:51:55,238 - INFO -   45. lapp kabel           →   1 products (  1.3%)
+2025-05-23 09:51:55,238 - INFO -   46. obo bettermann       →   1 products (  1.3%)
+2025-05-23 09:51:55,238 - INFO -   47. ggk                  →   1 products (  1.3%)
+2025-05-23 09:51:55,238 - INFO -   48. volkswagen           →   1 products (  1.3%)
+2025-05-23 09:51:55,238 - INFO - 
+🏆 MOST COMMON BRAND: QSC
+2025-05-23 09:51:55,238 - INFO -    📊 Appears in 18 out of 77 products (23.4%)
+2025-05-23 09:51:55,238 - INFO - --- Starting Phase 2: Brand-Focused Re-Scraping with 'QSC' ---
+2025-05-23 09:51:55,238 - INFO - 
+🔄 PHASE 2: BRAND-FOCUSED RE-SCRAPING
+2025-05-23 09:51:55,238 - INFO - ==================================================
+2025-05-23 09:51:55,239 - INFO - 🎯 Found 59 products with brands different than 'qsc'
+2025-05-23 09:51:55,239 - INFO - 🔄 Will re-scrape these products with brand-focused queries, considering existing brand mentions.
+2025-05-23 09:51:55,240 - INFO - 
+🔄 Re-scraping 1.01.010. (1/59)
+2025-05-23 09:51:55,240 - INFO -   📊 Current scraped brand: Conen Systems GmbH → Target dominant brand: QSC
+2025-05-23 09:51:55,240 - INFO -   ✅ Prepending dominant brand. Brand-focused query: qsc motorized ceiling-mounted projection screen 350x219 cm DIN 4102 B1 matte white fabric aluminum housing RAL 9016
+2025-05-23 09:51:55,240 - ERROR -   ❌ Error re-scraping 1.01.010.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,241 - INFO - 
+🔄 Re-scraping 1.01.020. (2/59)
+2025-05-23 09:51:55,241 - INFO -   📊 Current scraped brand: AV Stumpfl → Target dominant brand: QSC
+2025-05-23 09:51:55,241 - INFO -   ✅ Prepending dominant brand. Brand-focused query: qsc Motorsteuerungsgerät Ansteuerung motorische Leinwand kaufen
+2025-05-23 09:51:55,241 - ERROR -   ❌ Error re-scraping 1.01.020.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,242 - INFO - 
+🔄 Re-scraping 1.01.010. (3/59)
+2025-05-23 09:51:55,242 - INFO -   📊 Current scraped brand: Somfy → Target dominant brand: QSC
+2025-05-23 09:51:55,242 - INFO -   ⚠️ Original search query already contains 'Somfy'. Keeping original query.
+2025-05-23 09:51:55,242 - ERROR -   ❌ Error re-scraping 1.01.010.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,243 - INFO - 
+🔄 Re-scraping 1.01.030. (4/59)
+2025-05-23 09:51:55,243 - INFO -   📊 Current scraped brand: LS Screens → Target dominant brand: QSC
+2025-05-23 09:51:55,243 - INFO -   ✅ Prepending dominant brand. Brand-focused query: qsc "Montage der motorischen Leinwand Pos motorized screen"
+2025-05-23 09:51:55,243 - ERROR -   ❌ Error re-scraping 1.01.030.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,243 - INFO - 
+🔄 Re-scraping 1.01.040. (5/59)
+2025-05-23 09:51:55,243 - INFO -   📊 Current scraped brand: Epson → Target dominant brand: QSC
+2025-05-23 09:51:55,243 - INFO -   ⚠️ Original search query already contains 'Epson'. Keeping original query.
+2025-05-23 09:51:55,243 - ERROR -   ❌ Error re-scraping 1.01.040.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,244 - INFO - 
+🔄 Re-scraping 1.01.050. (6/59)
+2025-05-23 09:51:55,244 - INFO -   📊 Current scraped brand: Epson → Target dominant brand: QSC
+2025-05-23 09:51:55,244 - INFO -   ⚠️ Original search query already contains 'Epson'. Keeping original query.
+2025-05-23 09:51:55,244 - ERROR -   ❌ Error re-scraping 1.01.050.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,245 - INFO - 
+🔄 Re-scraping 1.01.070. (7/59)
+2025-05-23 09:51:55,245 - INFO -   📊 Current scraped brand: Chief → Target dominant brand: QSC
+2025-05-23 09:51:55,245 - INFO -   ✅ Prepending dominant brand. Brand-focused query: qsc "Montage des Projektors Pos projector mount"
+2025-05-23 09:51:55,245 - ERROR -   ❌ Error re-scraping 1.01.070.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,245 - INFO - 
+🔄 Re-scraping 1.01.040. (8/59)
+2025-05-23 09:51:55,245 - INFO -   📊 Current scraped brand: MonLines → Target dominant brand: QSC
+2025-05-23 09:51:55,245 - INFO -   ✅ Prepending dominant brand. Brand-focused query: qsc "65 inch mobile display Großbild Projektion MOD Lister Str 17"
+2025-05-23 09:51:55,245 - ERROR -   ❌ Error re-scraping 1.01.040.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,246 - INFO - 
+🔄 Re-scraping 1.02.010. (9/59)
+2025-05-23 09:51:55,246 - INFO -   📊 Current scraped brand: Viewsonic → Target dominant brand: QSC
+2025-05-23 09:51:55,246 - INFO -   ⚠️ Original search query already contains 'Viewsonic'. Keeping original query.
+2025-05-23 09:51:55,246 - ERROR -   ❌ Error re-scraping 1.02.010.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,247 - INFO - 
+🔄 Re-scraping 1.02.020. (10/59)
+2025-05-23 09:51:55,247 - INFO -   📊 Current scraped brand: Stand Steady → Target dominant brand: QSC
+2025-05-23 09:51:55,247 - INFO -   ✅ Prepending dominant brand. Brand-focused query: qsc "electric height adjustable roll stand in pos"
+2025-05-23 09:51:55,247 - ERROR -   ❌ Error re-scraping 1.02.020.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,247 - INFO - 
+🔄 Re-scraping 1.02.010. (11/59)
+2025-05-23 09:51:55,247 - INFO -   📊 Current scraped brand: SMS Smart Media Solutions → Target dominant brand: QSC
+2025-05-23 09:51:55,247 - INFO -   ✅ Prepending dominant brand. Brand-focused query: qsc "65 inch display mobile stand motorized height adjustable 150 kg load SMS Presence Mobile Motor"
+2025-05-23 09:51:55,247 - ERROR -   ❌ Error re-scraping 1.02.010.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,248 - INFO - 
+🔄 Re-scraping 1.02.030. (12/59)
+2025-05-23 09:51:55,248 - INFO -   📊 Current scraped brand: POS - Peter Ohrem → Target dominant brand: QSC
+2025-05-23 09:51:55,248 - INFO -   ✅ Prepending dominant brand. Brand-focused query: qsc "Montage des Displays Pos"
+2025-05-23 09:51:55,248 - ERROR -   ❌ Error re-scraping 1.02.030.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,248 - INFO - 
+🔄 Re-scraping 1.02.010. (13/59)
+2025-05-23 09:51:55,248 - INFO -   📊 Current scraped brand: POS-Express → Target dominant brand: QSC
+2025-05-23 09:51:55,249 - INFO -   ✅ Prepending dominant brand. Brand-focused query: qsc "an Rollständer Pos." online purchase
+2025-05-23 09:51:55,249 - ERROR -   ❌ Error re-scraping 1.02.010.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,249 - INFO - 
+🔄 Re-scraping 1.02.020. (14/59)
+2025-05-23 09:51:55,249 - INFO -   📊 Current scraped brand: Lumens → Target dominant brand: QSC
+2025-05-23 09:51:55,249 - INFO -   ✅ Prepending dominant brand. Brand-focused query: qsc "PTZ camera for web conference wall mount hybrid technology VW Nutzfahrzeuge"
+2025-05-23 09:51:55,249 - ERROR -   ❌ Error re-scraping 1.02.020.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,250 - INFO - 
+🔄 Re-scraping 1.03.020. (15/59)
+2025-05-23 09:51:55,250 - INFO -   📊 Current scraped brand: GeoVision Inc. → Target dominant brand: QSC
+2025-05-23 09:51:55,250 - INFO -   ✅ Prepending dominant brand. Brand-focused query: qsc "Montage Kamera Pos" purchase online
+2025-05-23 09:51:55,250 - ERROR -   ❌ Error re-scraping 1.03.020.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,251 - INFO - 
+🔄 Re-scraping 1.03.010. (16/59)
+2025-05-23 09:51:55,251 - INFO -   📊 Current scraped brand: Dahua → Target dominant brand: QSC
+2025-05-23 09:51:55,251 - INFO -   ✅ Prepending dominant brand. Brand-focused query: qsc "PTZ camera with wall ceiling mount includes installation tools"
+2025-05-23 09:51:55,251 - ERROR -   ❌ Error re-scraping 1.03.010.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,251 - INFO - 
+🔄 Re-scraping 1.03.030. (17/59)
+2025-05-23 09:51:55,252 - INFO -   📊 Current scraped brand: Sennheiser → Target dominant brand: QSC
+2025-05-23 09:51:55,252 - INFO -   ✅ Prepending dominant brand. Brand-focused query: qsc "Ceiling microphone beamforming with wall/ceiling mount for web conferencing"
+2025-05-23 09:51:55,252 - ERROR -   ❌ Error re-scraping 1.03.030.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,252 - INFO - 
+🔄 Re-scraping 1.04.010. (18/59)
+2025-05-23 09:51:55,252 - INFO -   📊 Current scraped brand: Sennheiser → Target dominant brand: QSC
+2025-05-23 09:51:55,252 - INFO -   ⚠️ Original search query already contains 'Sennheiser'. Keeping original query.
+2025-05-23 09:51:55,252 - ERROR -   ❌ Error re-scraping 1.04.010.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,253 - INFO - 
+🔄 Re-scraping 1.04.040. (19/59)
+2025-05-23 09:51:55,253 - INFO -   📊 Current scraped brand: RØDE → Target dominant brand: QSC
+2025-05-23 09:51:55,253 - INFO -   ✅ Prepending dominant brand. Brand-focused query: qsc "wireless microphone system USB connection dual channel receiver DECT technology"
+2025-05-23 09:51:55,253 - ERROR -   ❌ Error re-scraping 1.04.040.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,254 - INFO - 
+🔄 Re-scraping 1.04.040. (20/59)
+2025-05-23 09:51:55,254 - INFO -   📊 Current scraped brand: Catchbox → Target dominant brand: QSC
+2025-05-23 09:51:55,254 - INFO -   ⚠️ Original search query already contains 'Catchbox'. Keeping original query.
+2025-05-23 09:51:55,254 - ERROR -   ❌ Error re-scraping 1.04.040.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,255 - INFO - 
+🔄 Re-scraping 1.05.020. (21/59)
+2025-05-23 09:51:55,255 - INFO -   📊 Current scraped brand: MARD-Audio → Target dominant brand: QSC
+2025-05-23 09:51:55,255 - INFO -   ✅ Prepending dominant brand. Brand-focused query: qsc "Säulen-Wandlautsprecher Montage inklusive Hilfsmittel Decken-Lautsprecher"
+2025-05-23 09:51:55,255 - ERROR -   ❌ Error re-scraping 1.05.020.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,255 - INFO - 
+🔄 Re-scraping 1.07.010. (22/59)
+2025-05-23 09:51:55,255 - INFO -   📊 Current scraped brand: Apple → Target dominant brand: QSC
+2025-05-23 09:51:55,255 - INFO -   ⚠️ Original search query already contains 'Apple'. Keeping original query.
+2025-05-23 09:51:55,256 - ERROR -   ❌ Error re-scraping 1.07.010.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,256 - INFO - 
+🔄 Re-scraping 1.07.020. (23/59)
+2025-05-23 09:51:55,256 - INFO -   📊 Current scraped brand: ORICO → Target dominant brand: QSC
+2025-05-23 09:51:55,256 - INFO -   ✅ Prepending dominant brand. Brand-focused query: qsc Dockingstation passend für in Pos kaufen
+2025-05-23 09:51:55,256 - ERROR -   ❌ Error re-scraping 1.07.020.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,257 - INFO - 
+🔄 Re-scraping 1.07.010. (24/59)
+2025-05-23 09:51:55,257 - INFO -   📊 Current scraped brand: Wacom → Target dominant brand: QSC
+2025-05-23 09:51:55,257 - INFO -   ✅ Prepending dominant brand. Brand-focused query: qsc "Tablet PC full accessory kit setup ready for use"
+2025-05-23 09:51:55,257 - ERROR -   ❌ Error re-scraping 1.07.010.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,258 - INFO - 
+🔄 Re-scraping 1.07.030. (25/59)
+2025-05-23 09:51:55,258 - INFO -   📊 Current scraped brand: BAOREC → Target dominant brand: QSC
+2025-05-23 09:51:55,258 - INFO -   ✅ Prepending dominant brand. Brand-focused query: qsc "wireless media control setup HDMI wall outlet hybrid technology VW commercial vehicles"
+2025-05-23 09:51:55,258 - ERROR -   ❌ Error re-scraping 1.07.030.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,258 - INFO - 
+🔄 Re-scraping 1.08.010. (26/59)
+2025-05-23 09:51:55,258 - INFO -   📊 Current scraped brand: tehalit → Target dominant brand: QSC
+2025-05-23 09:51:55,258 - INFO -   ✅ Prepending dominant brand. Brand-focused query: qsc HDMI Anschlussdose Brüstungskanal montage inklusiv Zubehör und Kabel USB Wandanschluss
+2025-05-23 09:51:55,258 - ERROR -   ❌ Error re-scraping 1.08.010.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,259 - INFO - 
+🔄 Re-scraping 1.08.020. (27/59)
+2025-05-23 09:51:55,259 - INFO -   📊 Current scraped brand: DIGITUS → Target dominant brand: QSC
+2025-05-23 09:51:55,259 - INFO -   ✅ Prepending dominant brand. Brand-focused query: qsc USB-C wall mount socket installation kit with cable and accessories
+2025-05-23 09:51:55,259 - ERROR -   ❌ Error re-scraping 1.08.020.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,259 - INFO - 
+🔄 Re-scraping 1.08.030. (28/59)
+2025-05-23 09:51:55,259 - INFO -   📊 Current scraped brand: Epson → Target dominant brand: QSC
+2025-05-23 09:51:55,260 - INFO -   ✅ Prepending dominant brand. Brand-focused query: qsc wireless presentation system Wandanschlussdosen Brüstungskanal Medientechnik Anschlusspunkte
+2025-05-23 09:51:55,260 - ERROR -   ❌ Error re-scraping 1.08.030.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,260 - INFO - 
+🔄 Re-scraping 1.09.010. (29/59)
+2025-05-23 09:51:55,260 - INFO -   📊 Current scraped brand: Barco → Target dominant brand: QSC
+2025-05-23 09:51:55,260 - INFO -   ⚠️ Original search query already contains 'Barco'. Keeping original query.
+2025-05-23 09:51:55,260 - ERROR -   ❌ Error re-scraping 1.09.010.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,261 - INFO - 
+🔄 Re-scraping 2.01.010. (30/59)
+2025-05-23 09:51:55,261 - INFO -   📊 Current scraped brand: HKS → Target dominant brand: QSC
+2025-05-23 09:51:55,261 - INFO -   ⚠️ Original search query already contains 'HKS'. Keeping original query.
+2025-05-23 09:51:55,261 - ERROR -   ❌ Error re-scraping 2.01.010.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,261 - INFO - 
+🔄 Re-scraping 2.01.020. (31/59)
+2025-05-23 09:51:55,261 - INFO -   📊 Current scraped brand: Somfy → Target dominant brand: QSC
+2025-05-23 09:51:55,261 - INFO -   ⚠️ Original search query already contains 'Somfy'. Keeping original query.
+2025-05-23 09:51:55,261 - ERROR -   ❌ Error re-scraping 2.01.020.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,262 - INFO - 
+🔄 Re-scraping 2.01.010. (32/59)
+2025-05-23 09:51:55,262 - INFO -   📊 Current scraped brand: Epson → Target dominant brand: QSC
+2025-05-23 09:51:55,262 - INFO -   ✅ Prepending dominant brand. Brand-focused query: qsc "Projector WUXGA 7000 lumens ceiling wall mount included"
+2025-05-23 09:51:55,262 - ERROR -   ❌ Error re-scraping 2.01.010.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,263 - INFO - 
+🔄 Re-scraping 2.01.040. (33/59)
+2025-05-23 09:51:55,263 - INFO -   📊 Current scraped brand: Epson → Target dominant brand: QSC
+2025-05-23 09:51:55,263 - INFO -   ⚠️ Original search query already contains 'Epson'. Keeping original query.
+2025-05-23 09:51:55,263 - ERROR -   ❌ Error re-scraping 2.01.040.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,263 - INFO - 
+🔄 Re-scraping 2.01.050. (34/59)
+2025-05-23 09:51:55,263 - INFO -   📊 Current scraped brand: Epson → Target dominant brand: QSC
+2025-05-23 09:51:55,263 - INFO -   ⚠️ Original search query already contains 'Epson'. Keeping original query.
+2025-05-23 09:51:55,263 - ERROR -   ❌ Error re-scraping 2.01.050.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,264 - INFO - 
+🔄 Re-scraping 2.01.040. (35/59)
+2025-05-23 09:51:55,264 - INFO -   📊 Current scraped brand: SMS → Target dominant brand: QSC
+2025-05-23 09:51:55,264 - INFO -   ✅ Prepending dominant brand. Brand-focused query: qsc "Projektor Halterung mit Installationsmaterialien betriebsfertig"
+2025-05-23 09:51:55,264 - ERROR -   ❌ Error re-scraping 2.01.040.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,264 - INFO - 
+🔄 Re-scraping 2.01.070. (36/59)
+2025-05-23 09:51:55,264 - INFO -   📊 Current scraped brand: Chief → Target dominant brand: QSC
+2025-05-23 09:51:55,264 - INFO -   ✅ Prepending dominant brand. Brand-focused query: qsc "Montage des Projektors Pos projector mount"
+2025-05-23 09:51:55,265 - ERROR -   ❌ Error re-scraping 2.01.070.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,265 - INFO - 
+🔄 Re-scraping 2.03.010. (37/59)
+2025-05-23 09:51:55,265 - INFO -   📊 Current scraped brand: Victiv → Target dominant brand: QSC
+2025-05-23 09:51:55,265 - INFO -   ✅ Prepending dominant brand. Brand-focused query: qsc Kamerastativ 2.03.020 inklusive Montage Hilfsmittel Geräte Werkzeuge Kameratechnik Webkonferenz kaufen
+2025-05-23 09:51:55,265 - ERROR -   ❌ Error re-scraping 2.03.010.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,266 - INFO - 
+🔄 Re-scraping 2.04.030. (38/59)
+2025-05-23 09:51:55,266 - INFO -   📊 Current scraped brand: Sennheiser → Target dominant brand: QSC
+2025-05-23 09:51:55,266 - INFO -   ✅ Prepending dominant brand. Brand-focused query: qsc "Deckenmikrofon Montage Set inklusive Zubehör"
+2025-05-23 09:51:55,266 - ERROR -   ❌ Error re-scraping 2.04.030.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,267 - INFO - 
+🔄 Re-scraping 2.05.040. (39/59)
+2025-05-23 09:51:55,267 - INFO -   📊 Current scraped brand: Dali → Target dominant brand: QSC
+2025-05-23 09:51:55,267 - INFO -   ✅ Prepending dominant brand. Brand-focused query: qsc "Montage Decken-Lautsprecher komplettpaket Hilfsmittel Geräte Werkzeuge"
+2025-05-23 09:51:55,267 - ERROR -   ❌ Error re-scraping 2.05.040.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,267 - INFO - 
+🔄 Re-scraping 2.06.020. (40/59)
+2025-05-23 09:51:55,267 - INFO -   📊 Current scraped brand: OBO → Target dominant brand: QSC
+2025-05-23 09:51:55,267 - INFO -   ✅ Prepending dominant brand. Brand-focused query: qsc "Mediensteuerung Montage inklusive Zubehör Geräte Werkzeuge HDMI Wandanschluss"
+2025-05-23 09:51:55,267 - ERROR -   ❌ Error re-scraping 2.06.020.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,268 - INFO - 
+🔄 Re-scraping 2.07.030. (41/59)
+2025-05-23 09:51:55,268 - INFO -   📊 Current scraped brand: KOMIB → Target dominant brand: QSC
+2025-05-23 09:51:55,268 - INFO -   ✅ Prepending dominant brand. Brand-focused query: qsc "Wandanschlussdosen Brüstungskanal Medientechnik Anschlusspunkte drahtloses Präsentationssystem"
+2025-05-23 09:51:55,268 - ERROR -   ❌ Error re-scraping 2.07.030.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,269 - INFO - 
+🔄 Re-scraping 2.08.010. (42/59)
+2025-05-23 09:51:55,269 - INFO -   📊 Current scraped brand: Barco → Target dominant brand: QSC
+2025-05-23 09:51:55,269 - INFO -   ⚠️ Original search query already contains 'Barco'. Keeping original query.
+2025-05-23 09:51:55,269 - ERROR -   ❌ Error re-scraping 2.08.010.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,270 - INFO - 
+🔄 Re-scraping 3.01.020. (43/59)
+2025-05-23 09:51:55,270 - INFO -   📊 Current scraped brand: Bachmann → Target dominant brand: QSC
+2025-05-23 09:51:55,270 - INFO -   ✅ Prepending dominant brand. Brand-focused query: qsc 19 Zoll Steckdosenleiste 7 Schutzkontakt-Steckdosen Überspannungsschutz Hauptschalter 2m Winkelstecker Montagewinkel schwarz grau
+2025-05-23 09:51:55,270 - ERROR -   ❌ Error re-scraping 3.01.020.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,270 - INFO - 
+🔄 Re-scraping 3.01.040. (44/59)
+2025-05-23 09:51:55,271 - INFO -   📊 Current scraped brand: Q-SYS → Target dominant brand: QSC
+2025-05-23 09:51:55,271 - INFO -   ✅ Prepending dominant brand. Brand-focused query: qsc "Microsoft Teams Room software licenses KNX-Interface UCI Deployment DANTE 64 SLQUD-110-P SLQSE-110-P SLDAN-64P"
+2025-05-23 09:51:55,271 - ERROR -   ❌ Error re-scraping 3.01.040.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,271 - INFO - 
+🔄 Re-scraping 3.01.050. (45/59)
+2025-05-23 09:51:55,271 - INFO -   📊 Current scraped brand: Crestron → Target dominant brand: QSC
+2025-05-23 09:51:55,271 - INFO -   ✅ Prepending dominant brand. Brand-focused query: qsc "Intelligentes Interface Modul EIB KNX RS-232 TCP/IP bidirectional control"
+2025-05-23 09:51:55,271 - ERROR -   ❌ Error re-scraping 3.01.050.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,272 - INFO - 
+🔄 Re-scraping 3.01.050. (46/59)
+2025-05-23 09:51:55,272 - INFO -   📊 Current scraped brand: Crestron Electronics, Inc. → Target dominant brand: QSC
+2025-05-23 09:51:55,272 - INFO -   ✅ Prepending dominant brand. Brand-focused query: qsc Crestron CGEIB-IP KNX interface TCP IP port rail-mounted module 35mm 45mm cutout 24V 9.5x3.5x7 cm PoE+ 24 ports switch
+2025-05-23 09:51:55,272 - ERROR -   ❌ Error re-scraping 3.01.050.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,273 - INFO - 
+🔄 Re-scraping 3.01.060. (47/59)
+2025-05-23 09:51:55,273 - INFO -   📊 Current scraped brand: ALLNET → Target dominant brand: QSC
+2025-05-23 09:51:55,273 - INFO -   ✅ Prepending dominant brand. Brand-focused query: qsc "1G 10G Base-T Ethernet Managed Switch 24 ports PoE+ 4 SFP+ slots IEEE802.3af"
+2025-05-23 09:51:55,273 - ERROR -   ❌ Error re-scraping 3.01.060.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,273 - INFO - 
+🔄 Re-scraping 3.01.090. (48/59)
+2025-05-23 09:51:55,273 - INFO -   📊 Current scraped brand: inter-tech → Target dominant brand: QSC
+2025-05-23 09:51:55,273 - INFO -   ✅ Prepending dominant brand. Brand-focused query: qsc "12V DC 10A external power supply"
+2025-05-23 09:51:55,273 - ERROR -   ❌ Error re-scraping 3.01.090.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,274 - INFO - 
+🔄 Re-scraping 3.01.110. (49/59)
+2025-05-23 09:51:55,274 - INFO -   📊 Current scraped brand: Q-SYS → Target dominant brand: QSC
+2025-05-23 09:51:55,274 - INFO -   ✅ Prepending dominant brand. Brand-focused query: qsc QSC NV-21-PSU HDMI Encoder Decoder Audio Amplifier
+2025-05-23 09:51:55,274 - ERROR -   ❌ Error re-scraping 3.01.110.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,274 - INFO - 
+🔄 Re-scraping 3.01.140. (50/59)
+2025-05-23 09:51:55,275 - INFO -   📊 Current scraped brand: ANEL → Target dominant brand: QSC
+2025-05-23 09:51:55,275 - INFO -   ⚠️ Original search query already contains 'ANEL'. Keeping original query.
+2025-05-23 09:51:55,275 - ERROR -   ❌ Error re-scraping 3.01.140.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,275 - INFO - 
+🔄 Re-scraping 3.01.150. (51/59)
+2025-05-23 09:51:55,275 - INFO -   📊 Current scraped brand: Adam Hall → Target dominant brand: QSC
+2025-05-23 09:51:55,275 - INFO -   ✅ Prepending dominant brand. Brand-focused query: qsc "1HE Rack U-Wanne Rackschublade 19 inch 2HE Zubehör Montageteile"
+2025-05-23 09:51:55,275 - ERROR -   ❌ Error re-scraping 3.01.150.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,276 - INFO - 
+🔄 Re-scraping 3.01.160. (52/59)
+2025-05-23 09:51:55,276 - INFO -   📊 Current scraped brand: Adam Hall → Target dominant brand: QSC
+2025-05-23 09:51:55,276 - INFO -   ✅ Prepending dominant brand. Brand-focused query: qsc "Rackschublade 19 inch 2U steel black powder-coated 38cm depth"
+2025-05-23 09:51:55,276 - ERROR -   ❌ Error re-scraping 3.01.160.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,277 - INFO - 
+🔄 Re-scraping 4.01.010. (53/59)
+2025-05-23 09:51:55,277 - INFO -   📊 Current scraped brand: EFB-ELEKTRONIK → Target dominant brand: QSC
+2025-05-23 09:51:55,277 - INFO -   ✅ Prepending dominant brand. Brand-focused query: qsc "CAT 7 Duplex AWG23 Netzwerkleitung Kabel aufmaß Simplex €150"
+2025-05-23 09:51:55,277 - ERROR -   ❌ Error re-scraping 4.01.010.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,277 - INFO - 
+🔄 Re-scraping 4.01.040. (54/59)
+2025-05-23 09:51:55,277 - INFO -   📊 Current scraped brand: Extron → Target dominant brand: QSC
+2025-05-23 09:51:55,278 - INFO -   ⚠️ Original search query already contains 'Extron'. Keeping original query.
+2025-05-23 09:51:55,278 - ERROR -   ❌ Error re-scraping 4.01.040.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,278 - INFO - 
+🔄 Re-scraping 4.01.050. (55/59)
+2025-05-23 09:51:55,278 - INFO -   📊 Current scraped brand: Cables2Go → Target dominant brand: QSC
+2025-05-23 09:51:55,278 - INFO -   ✅ Prepending dominant brand. Brand-focused query: qsc HDMI cable 3m USB-C 3m
+2025-05-23 09:51:55,278 - ERROR -   ❌ Error re-scraping 4.01.050.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,279 - INFO - 
+🔄 Re-scraping 4.01.090. (56/59)
+2025-05-23 09:51:55,279 - INFO -   📊 Current scraped brand: Lapp Kabel → Target dominant brand: QSC
+2025-05-23 09:51:55,279 - INFO -   ✅ Prepending dominant brand. Brand-focused query: qsc "Steuerleitung J-Y(ST)Y 0.8 cable purchase"
+2025-05-23 09:51:55,279 - ERROR -   ❌ Error re-scraping 4.01.090.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,279 - INFO - 
+🔄 Re-scraping 4.01.100. (57/59)
+2025-05-23 09:51:55,279 - INFO -   📊 Current scraped brand: OBO Bettermann → Target dominant brand: QSC
+2025-05-23 09:51:55,280 - INFO -   ✅ Prepending dominant brand. Brand-focused query: qsc "Konfektionieren der Kabel mit Steckern Lieferung Kabelrinne 60mm"
+2025-05-23 09:51:55,280 - ERROR -   ❌ Error re-scraping 4.01.100.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,280 - INFO - 
+🔄 Re-scraping 4.01.120. (58/59)
+2025-05-23 09:51:55,280 - INFO -   📊 Current scraped brand: GGK → Target dominant brand: QSC
+2025-05-23 09:51:55,280 - INFO -   ✅ Prepending dominant brand. Brand-focused query: qsc rechteckiger Kunststoff Brüstungskanal Wandmontage 110mm x 80mm Oberteile symmetrisch inklusive Montagelochung weiß kaufen
+2025-05-23 09:51:55,280 - ERROR -   ❌ Error re-scraping 4.01.120.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,281 - INFO - 
+🔄 Re-scraping 5.01.040. (59/59)
+2025-05-23 09:51:55,281 - INFO -   📊 Current scraped brand: Volkswagen → Target dominant brand: QSC
+2025-05-23 09:51:55,281 - INFO -   ✅ Prepending dominant brand. Brand-focused query: qsc "hybrid technology training max 25 participants at MOD Lister Str. 17 VW Nutzfahrzeuge equipment"
+2025-05-23 09:51:55,281 - ERROR -   ❌ Error re-scraping 5.01.040.: name 'SEARCH_API_KEY' is not defined
+Traceback (most recent call last):
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 422, in phase2_brand_focused_scraping
+    top3 = search_top_3_results(brand_focused_query)
+  File "/Users/floriankrause/Desktop/first agent/ballern.py", line 97, in search_top_3_results
+    "api_key": SEARCH_API_KEY,
+               ^^^^^^^^^^^^^^
+NameError: name 'SEARCH_API_KEY' is not defined
+2025-05-23 09:51:55,322 - INFO - 
+✅ PHASE 2 COMPLETED!
+2025-05-23 09:51:55,322 - INFO - ⏱️  Re-scraping time: 0.0 minutes
+2025-05-23 09:51:55,322 - INFO - 🎯 Brand matches found: 0/59
+2025-05-23 09:51:55,322 - INFO - 💾 Results saved to: philip_case_results_with_scraping.xlsx
+2025-05-23 09:51:55,322 - INFO - --- Product Information Extraction Workflow Completed! ---
+2025-05-23 09:51:55,322 - INFO - Final results saved to: 'philip_case_results_with_scraping.xlsx'
