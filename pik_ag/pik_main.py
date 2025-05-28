@@ -20,10 +20,9 @@ from category_standardization import standardize_category, STANDARD_CATEGORIES
 client = OpenAI(api_key="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")
 search_api_key = "qGo9tyZz3o7BQmmThZP6eSve"
 
-# 🆕 TESTING LIMIT - Process only 50 entries to save credits
-TESTING_LIMIT = 50
+# 🆕 TESTING LIMIT - Process only 10 entries to save credits
+TESTING_LIMIT = 10
 print(f"🚧 TESTING MODE: Limited to {TESTING_LIMIT} entries to save credits")
-print(f"📋 Using {len(STANDARD_CATEGORIES)} standard categories for consistent classification")
 
 # 🧠 Function: Generate search query from description
 def generate_search_query(description):
@@ -274,7 +273,7 @@ def analyze_brand_distribution(df):
         
         for i, (category, count) in enumerate(sorted_categories[:10], 1):
             percentage = (count / len(valid_categories)) * 100
-            print(f"  {i:2d}. {category:25s} → {count:3d} products ({percentage:5.1f}%)")
+            print(f"  {i:2d}. {category!s:25} → {count:3d} products ({percentage:5.1f}%)")
 
     return most_common_brand, dict(brand_counts)
 
